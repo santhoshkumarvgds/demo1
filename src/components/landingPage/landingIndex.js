@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from './nav';
 import Technologies from './technologies'
 import AboutUs from "./aboutus";
+import ProductWeBuild from  "./productWeBuild";
 import Map from './map'
 
 const landingIndex = () => {
@@ -10,6 +11,7 @@ const landingIndex = () => {
             <Nav />
             <AboutUs />
             <Technologies />
+            <ProductWeBuild />
             <Map />
         </div>
     )

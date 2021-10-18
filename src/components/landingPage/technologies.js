@@ -9,40 +9,43 @@ import Heading from './heading'
 
 const technologies = () => {
     return (
-        <div className="sec-tech">
-            <Heading title="Technologies we are worked" />
+        <div className="sections sec-techechnologies">
+            <div className="hanger"><span /></div>
+            <div className="title">
+                Primary Technologies we work on
+            </div>
             <div class="d-flex justify-content-around" style={{ margin: "20px 0px" }}>
                 <div>
-                    <img src={AngularSvg} style={{ width: 150, height: 150 }} />
-                    <h4>ANGULAR</h4>
+                    <img src={AngularSvg} style={{ width: 120, height: 120 }} />
+                    <h5>ANGULAR</h5>
                 </div>
                 <div>
-                    <img src={ReactSvg} style={{ width: 150, height: 150 }} />
-                    <h4>REACT</h4>
+                    <img src={ReactSvg} style={{ width: 120, height: 120 }} />
+                    <h5>REACT</h5>
                 </div>
                 <div>
-                    <img src={VueSvg} style={{ width: 150, height: 150 }} />
-                    <h4>VUE</h4>
+                    <img src={VueSvg} style={{ width: 120, height: 120 }} />
+                    <h5>VUE</h5>
                 </div>
             </div>
             <div class="d-flex justify-content-around" style={{ margin: "20px 0px" }}>
                 <div>
-                    <img src={ReactSvg} style={{ width: 150, height: 150 }} />
-                    <h4>REACT NATIVE</h4>
+                    <img src={ReactSvg} style={{ width: 120, height: 120 }} />
+                    <h5>REACT NATIVE</h5>
                 </div>
             </div>
             <div class="d-flex justify-content-around" style={{ margin: "20px 0px" }}>
                 <div>
-                    <img src={ExpressSvg} style={{ width: 150, height: 150 }} />
-                    <h4>EXPRESS</h4>
+                    <img src={ExpressSvg} style={{ width: 120, height: 120 }} />
+                    <h5>EXPRESS</h5>
                 </div>
                 <div>
-                    <img src={NodeSvg} style={{ width: 150, height: 150 }} />
-                    <h4>NODE</h4>
+                    <img src={NodeSvg} style={{ width: 120, height: 120 }} />
+                    <h5>NODE</h5>
                 </div>
                 <div>
-                    <img src={MongoSvg} style={{ width: 150, height: 150 }} />
-                    <h4>MANGODB</h4>
+                    <img src={MongoSvg} style={{ width: 120, height: 120 }} />
+                    <h5>MANGODB</h5>
                 </div>
             </div>
         </div>

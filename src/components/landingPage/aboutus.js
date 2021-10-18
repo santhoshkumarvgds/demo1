@@ -11,7 +11,7 @@ const Aboutus = () => {
                     <img className="sec-aboutus-svg" src={WorkSvg} />
                 </div>
                 <div className="sec-aboutus-content">
-                    We are full stach product builders to solve your technical problems, and we strive hard to meet your business requirments
+                    We are full stack product builders to solve your technical problems, and we strive hard to meet your business requirments
                 </div>
             </div>
         </div>
