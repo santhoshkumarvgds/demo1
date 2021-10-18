@@ -9,7 +9,7 @@ import Heading from './heading'
 
 const technologies = () => {
     return (
-        <div>
+        <div className="sec-tech">
             <Heading title="Technologies we are worked" />
             <div class="d-flex justify-content-around" style={{ margin: "20px 0px" }}>
                 <div>
